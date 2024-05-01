@@ -40,12 +40,12 @@ const CardWrap = styled.div`
 
   & > div {
     position: absolute;
+    display: flex;
     top: 4%;
     left: 2.5%;
     width: 95%;
     height: 92%;
     background-color: #fff;
-    display: flex;
     align-items: center;
     padding: 20px;
     border-radius: 4px;
@@ -64,12 +64,26 @@ const CardWrap = styled.div`
     border-radius: 2px;
     margin-bottom: 10px;
   }
+  @media (max-width: 560px) {
+    width: 300px;
+    height: 520px;
+    & > div {
+      flex-direction: column;
+    }
+    & > div > ul {
+      width: 100%;
+    }
+  }
 `;
 
 const Photo = styled.div`
   width: 30%;
   & > img {
     width: 100%;
+  }
+  @media (max-width: 560px) {
+    width: 50%;
+    margin-bottom: 20px;
   }
 `;
 const CardButtonWrap = styled.ul`

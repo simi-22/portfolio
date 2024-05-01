@@ -36,6 +36,12 @@ const ProjectButton = styled.ul`
     box-shadow: 0 0 0 1px #fff inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
       0 0 0 1px rgb(255, 255, 255);
   }
+  @media (max-width: 1020px) {
+    max-width: 600px;
+  }
+  @media (max-width: 630px) {
+    max-width: 300px;
+  }
 `;
 
 const Projects = () => {

@@ -16,6 +16,14 @@ const ProjectContainer = styled.ul`
   margin: 0 auto;
   gap: 20px;
   margin-bottom: 50px;
+  @media (max-width: 1020px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+  }
+  @media (max-width: 630px) {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+  }
 `;
 
 const ReactWorks = () => {

@@ -9,6 +9,9 @@ const MainButtonWrap = styled.ul`
   & > li {
     margin-right: 10px;
   }
+  & > li:nth-of-type(3) {
+    margin-right: 0;
+  }
 `;
 const ProjectButton = styled.button`
   font-size: 13px;
@@ -29,6 +32,9 @@ const ProjectButton = styled.button`
     top: 4px;
     box-shadow: 0 0 0 1px #fff inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
       0 0 0 1px rgb(255, 255, 255);
+  }
+  @media (max-width: 560px) {
+    font-size: 12px;
   }
 `;
 

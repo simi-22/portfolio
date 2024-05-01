@@ -11,14 +11,14 @@ const ProjectList = styled.li`
   padding: 10px;
   background-color: #ffffff6c;
   border-radius: 10px;
-  height: 390px;
+  height: 370px;
   & > div:nth-of-type(1) {
-    height: 50%;
+    height: 48%;
     display: flex;
     align-items: end;
   }
   & > div:nth-of-type(2) {
-    height: 50%;
+    height: 52%;
     padding-top: 20px;
   }
   & > div > img {
@@ -62,6 +62,21 @@ const ProjectList = styled.li`
     font-weight: 200;
     font-size: 14px;
     line-height: 18px;
+  }
+  @media (max-width: 1020px) {
+    & > div > img {
+      width: 100%;
+      margin: 0 auto;
+    }
+    & > div:nth-of-type(1) {
+      height: 45%;
+      display: flex;
+      align-items: end;
+    }
+    & > div:nth-of-type(2) {
+      height: 55%;
+      padding-top: 20px;
+    }
   }
 `;
 const WorksItem = ({
