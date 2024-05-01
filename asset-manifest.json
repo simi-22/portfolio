@@ -1,7 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dc4d6ff2.css",
-    "main.js": "/portfolio/static/js/main.53c4b3d0.js",
+    "main.js": "/portfolio/static/js/main.c8117fc1.js",
     "static/media/muvic.png": "/portfolio/static/media/muvic.0823b825c96f4bb5e3e6.png",
     "static/media/shakedrink.png": "/portfolio/static/media/shakedrink.f15c63b2d8e7a144a687.png",
     "static/media/rds.png": "/portfolio/static/media/rds.3e80e05e417d14bd6df1.png",
@@ -9,18 +8,16 @@
     "static/media/megabox.png": "/portfolio/static/media/megabox.893569d25f160e54ece6.png",
     "static/media/yes24.png": "/portfolio/static/media/yes24.1075d06b36917c7ce62a.png",
     "static/media/times.png": "/portfolio/static/media/times.c02c6e87a3c0fe1482c5.png",
-    "static/media/milli.png": "/portfolio/static/media/milli.ece099bb57a4a28d3de2.png",
+    "static/media/millie.png": "/portfolio/static/media/millie.ece099bb57a4a28d3de2.png",
     "static/media/weatherapi.png": "/portfolio/static/media/weatherapi.2fea8cee532da078c462.png",
     "static/media/random.png": "/portfolio/static/media/random.8679737313563548b35b.png",
     "static/media/reacttodo.png": "/portfolio/static/media/reacttodo.9f5c14834aa197774cf7.png",
     "static/media/jstodo.png": "/portfolio/static/media/jstodo.f186e04f2a07c171c0b3.png",
     "static/media/profile.png": "/portfolio/static/media/profile.83bf76169fc938875ee0.png",
     "index.html": "/portfolio/index.html",
-    "main.dc4d6ff2.css.map": "/portfolio/static/css/main.dc4d6ff2.css.map",
-    "main.53c4b3d0.js.map": "/portfolio/static/js/main.53c4b3d0.js.map"
+    "main.c8117fc1.js.map": "/portfolio/static/js/main.c8117fc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc4d6ff2.css",
-    "static/js/main.53c4b3d0.js"
+    "static/js/main.c8117fc1.js"
   ]
 }
