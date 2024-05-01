@@ -55,9 +55,6 @@ const MainButton = () => {
           Publishing
         </ProjectButton>
       </li>
-      <li>
-        <ProjectButton>Etc</ProjectButton>
-      </li>
     </MainButtonWrap>
   );
 };

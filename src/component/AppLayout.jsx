@@ -9,10 +9,10 @@ import {
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Header = styled.ul`
-  width: 100%;
+  max-width: 1000px;
   display: flex;
   justify-content: end;
-  padding: 10px;
+  padding: 20px;
   height: 70px;
   margin: 0 auto;
   & > li {
@@ -36,20 +36,20 @@ const Header = styled.ul`
   & > li > div > p {
     position: absolute;
     bottom: -55px;
-    left: calc(50% - 65px);
-    width: 130px;
+    left: calc(50% - 60px);
+    width: 120px;
     height: 30px;
     line-height: 30px;
     border-radius: 2px;
-    padding: 0 10px;
+    padding: 0 2px;
     background-color: #ccc;
     font-size: 10px;
     text-align: center;
     opacity: 0;
   }
   & > li:nth-of-type(4) > div > p {
-    left: calc(50% - 50px);
-    width: 100px;
+    left: calc(50% - 45px);
+    width: 90px;
   }
   & > li > div > p::after {
     border-top: 0px solid transparent;
@@ -59,10 +59,10 @@ const Header = styled.ul`
     content: "";
     position: absolute;
     bottom: 30px;
-    left: 55px;
+    left: 50px;
   }
   & > li:nth-of-type(4) > div > p::after {
-    left: 40px;
+    left: 35px;
   }
   & > li > div:hover > p {
     opacity: 1;
@@ -89,7 +89,11 @@ const AppLayout = () => {
         </li>
         <li>
           <div>
-            <a href="https://github.com/simi-22" target="_blank">
+            <a
+              href="https://github.com/simi-22"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} size="1x" />
             </a>
           </div>

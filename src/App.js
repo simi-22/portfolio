@@ -18,7 +18,7 @@ const AppContainer = styled.div`
 function App() {
   return (
     <AppContainer>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<HomePage />} />

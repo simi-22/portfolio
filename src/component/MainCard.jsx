@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
 import photo from "../assets/profile.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faJs,
-  faHtml5,
-  faCss3,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
 
 const blink = keyframes` 
   40% {
@@ -120,7 +113,7 @@ const ListArea = styled.div`
   }
 
   & > div:nth-of-type(2) > img {
-    height: 20px;
+    height: 18px;
     margin-right: 2px;
   }
 `;
@@ -203,8 +196,16 @@ const MainCard = () => {
                 alt="jquery"
               />
               <img
-                src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
-                alt="redux"
+                src="https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white"
+                alt="리액트 쿼리"
+              />
+              <img
+                src="https://img.shields.io/badge/Zustand-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+                alt="zustand"
+              />
+              <img
+                src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+                alt="리덕스"
               />
               <img
                 src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
@@ -227,6 +228,10 @@ const MainCard = () => {
                 alt="일러스트레이터"
               />
               <img
+                src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
+                alt="피그마"
+              />
+              <img
                 src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"
                 alt="비트"
               />
@@ -235,7 +240,7 @@ const MainCard = () => {
                 alt="github"
               />
               <img
-                src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"
+                src="https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"
                 alt="vscode"
               />
             </div>
