@@ -9,8 +9,9 @@ const ProjectContainer = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 1000px;
-  padding-top: 80px;
+  padding-top: 20px;
   margin: 0 auto;
+  gap: 20px;
 `;
 const PublishingWorks = () => {
   return (
@@ -19,23 +20,25 @@ const PublishingWorks = () => {
         image={Rds}
         title="rds 클론코딩"
         projectType="팀프로젝트"
-        frontSkill="html,css,jQuery"
+        frontSkill="html, css, jQuery, Bootstrap"
         projectAddress="https://simi-22.github.io/rds/"
         githubAddress="https://github.com/simi-22/rds"
+        content="bootstrap을 이용한 slider와 아래부분 제작(about company)"
       />
       <WorksItem
         image={megabox}
         title="메가박스 클론코딩"
         projectType="팀프로젝트"
-        frontSkill="html,css"
+        frontSkill="html, css, swiper.js"
         projectAddress="https://simi-22.github.io/megabox/"
         githubAddress="https://github.com/simi-22/megabox"
+        content="Header, 박스오피스 제작(비반응형)"
       />
       <WorksItem
         image={millie}
         title="밀리의서재 클론코딩"
         projectType="개인프로젝트"
-        frontSkill="html,css,javascript"
+        frontSkill="html, css, javascript"
         projectAddress="https://simi-22.github.io/millie-web/main"
         githubAddress="https://github.com/simi-22/millie-web"
       />
