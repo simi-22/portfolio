@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { useNavigate } from "react-router-dom";
+import { useSelectedWorkStore } from "../../store/selectWorkStore";
 
 const MainButtonWrap = styled.ul`
   display: flex;
@@ -24,36 +25,23 @@ const ProjectButton = styled.button`
 `;
 
 const MainButton = () => {
-  const navigate = useNavigate();
-
+  const { selectedWork, setSelectedWork } = useSelectedWorkStore();
   return (
     <MainButtonWrap>
       <li>
-        <ProjectButton
-          onClick={() => {
-            navigate("/react");
-          }}
-        >
-          React
-        </ProjectButton>
+        <Link to="/works" onClick={() => setSelectedWork("React")}>
+          <ProjectButton>React</ProjectButton>
+        </Link>
       </li>
       <li>
-        <ProjectButton
-          onClick={() => {
-            navigate("/javascript");
-          }}
-        >
-          Javascript
-        </ProjectButton>
+        <Link to="/works" onClick={() => setSelectedWork("JavaScript")}>
+          <ProjectButton>JavaScript</ProjectButton>
+        </Link>
       </li>
       <li>
-        <ProjectButton
-          onClick={() => {
-            navigate("/publishing");
-          }}
-        >
-          Publishing
-        </ProjectButton>
+        <Link to="/works" onClick={() => setSelectedWork("Publishing")}>
+          <ProjectButton>Publishing</ProjectButton>
+        </Link>
       </li>
     </MainButtonWrap>
   );

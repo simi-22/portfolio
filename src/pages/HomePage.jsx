@@ -1,6 +1,6 @@
 import React from "react";
-import MainCard from "../component/MainCard";
-import MainButton from "../component/MainButton";
+import MainCard from "../component/mainComponent/MainCard";
+import MainButton from "../component/mainComponent/MainButton";
 import styled from "styled-components";
 
 const HomePageContainer = styled.div`

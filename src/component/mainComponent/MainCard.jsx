@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
-import photo from "../assets/profile.png";
+import photo from "../../assets/profile.png";
 
 const blink = keyframes` 
   40% {

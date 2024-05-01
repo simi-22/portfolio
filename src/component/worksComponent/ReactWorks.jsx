@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import netflix from "../assets/reactImg/netflix.png";
-import shakeDrink from "../assets/reactImg/shakedrink.png";
-import yes24 from "../assets/reactImg/yes24.png";
-import weatherapi from "../assets/reactImg/weatherapi.png";
-import reactTodo from "../assets/reactImg/reacttodo.png";
-import WorksItem from "../component/WorksItem.jsx";
+import netflix from "../../assets/reactImg/netflix.png";
+import shakeDrink from "../../assets/reactImg/shakedrink.png";
+import yes24 from "../../assets/reactImg/yes24.png";
+import weatherapi from "../../assets/reactImg/weatherapi.png";
+import reactTodo from "../../assets/reactImg/reacttodo.png";
+import WorksItem from "../../component/worksComponent/WorksItem";
 
 const ProjectContainer = styled.ul`
   display: grid;
@@ -15,7 +15,7 @@ const ProjectContainer = styled.ul`
   margin: 0 auto;
 `;
 
-const ReactWorksPage = () => {
+const ReactWorks = () => {
   return (
     <ProjectContainer>
       <WorksItem
@@ -66,4 +66,4 @@ const ReactWorksPage = () => {
   );
 };
 
-export default ReactWorksPage;
+export default ReactWorks;
