@@ -44,10 +44,11 @@ const ReactWorks = () => {
         image={netflix}
         title="넷플릭스"
         projectType="개인프로젝트"
-        frontSkill="React, Javascript, Bootstrap, React Query"
+        frontSkill="React, Javascript, React Query, Slick-Slider, Bootstrap, "
         backSkill="TMDB API"
         projectAddress="https://nmoviewebsite.netlify.app/"
         githubAddress="https://github.com/simi-22/Netflix"
+        content="React-Router페이지구현, React Query로 Api관리"
       />
       <WorksItem
         image={portfolio}
@@ -62,7 +63,7 @@ const ReactWorks = () => {
         title="yes 24(도서쇼핑몰)"
         projectType="개인프로젝트"
         frontSkill="React, Javascript, React-redux/middleware, Redux-toolkit"
-        backSkill="my json server"
+        backSkill="My json server"
         projectAddress="https://booksmall.netlify.app/?q="
         githubAddress="https://github.com/simi-22/shoppingmall"
       />

@@ -27,9 +27,9 @@ const PublishingWorks = () => {
     <ProjectContainer>
       <WorksItem
         image={Rds}
-        title="rds 클론코딩"
+        title="RDS 클론코딩"
         projectType="팀프로젝트"
-        frontSkill="html, css, jQuery, Bootstrap"
+        frontSkill="Html, Css, jQuery, Bootstrap"
         projectAddress="https://simi-22.github.io/rds/"
         githubAddress="https://github.com/simi-22/rds"
         content="bootstrap을 이용한 slider와 아래부분 제작(about company)"
@@ -38,7 +38,7 @@ const PublishingWorks = () => {
         image={megabox}
         title="메가박스 클론코딩"
         projectType="팀프로젝트"
-        frontSkill="html, css, swiper.js"
+        frontSkill="Html, Css, Swiper.js"
         projectAddress="https://simi-22.github.io/megabox/"
         githubAddress="https://github.com/simi-22/megabox"
         content="Header, 박스오피스 제작(비반응형)"
@@ -47,7 +47,7 @@ const PublishingWorks = () => {
         image={millie}
         title="밀리의서재 클론코딩"
         projectType="개인프로젝트"
-        frontSkill="html, css, javascript"
+        frontSkill="Html, Css, Javascript"
         projectAddress="https://simi-22.github.io/millie-web/main"
         githubAddress="https://github.com/simi-22/millie-web"
       />

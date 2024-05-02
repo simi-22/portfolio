@@ -21,7 +21,7 @@ const ProjectButton = styled.ul`
     padding: 4px 10px;
     position: relative;
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 20px;
     text-align: center;
     transition: top 0.01s linear;
     border: none;

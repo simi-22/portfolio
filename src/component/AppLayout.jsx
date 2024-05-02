@@ -64,7 +64,7 @@ const Header = styled.ul`
   & > li:nth-of-type(4) > div > p::after {
     left: 35px;
   }
-  & > li > div:hover > p {
+  & > li:hover > div > p {
     opacity: 1;
   }
 `;
@@ -110,9 +110,7 @@ const AppLayout = () => {
         </li>
         <li>
           <div>
-            <a href="tel:01072748977">
-              <FontAwesomeIcon icon={faMobile} size="1x" />
-            </a>
+            <FontAwesomeIcon icon={faMobile} size="1x" />
             <p onClick={() => copyCode("010-7274-8977")}>010-7274-8977</p>
           </div>
         </li>

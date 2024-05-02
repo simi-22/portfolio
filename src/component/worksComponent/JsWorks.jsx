@@ -30,8 +30,8 @@ const JsWorks = () => {
         image={MuvicImg}
         title="MUVIC"
         projectType="팀프로젝트"
-        frontSkill="html,css,javascript"
-        backSkill="TMDB API"
+        frontSkill="Html, Css, Javascript"
+        backSkill="TMDB API, SpotifyAPI"
         projectAddress="https://muvic.netlify.app/"
         githubAddress="https://github.com/simi-22/group-23-api-project"
         tool="Github,Figma, Slack, Discord, Netlify, Trello"
@@ -41,7 +41,7 @@ const JsWorks = () => {
         image={Times}
         title="뉴욕타임즈"
         projectType="개인프로젝트"
-        frontSkill="html,css,javascript"
+        frontSkill="Html, Css, Javascript"
         tool="Postman"
         backSkill="newscatcher API"
         projectAddress="https://simi-22.github.io/NewsApp/"
@@ -51,7 +51,7 @@ const JsWorks = () => {
         image={todoList}
         title="TodoList"
         projectType="개인프로젝트"
-        frontSkill="html,css,javascript"
+        frontSkill="Html, Css, Javascript"
         projectAddress="https://simi-22.github.io/First-ToDoList/"
         githubAddress="https://github.com/simi-22/First-ToDoList"
       />
@@ -59,7 +59,7 @@ const JsWorks = () => {
         image={random}
         title="랜덤숫자게임"
         projectType="개인프로젝트"
-        frontSkill="html,css,javascript"
+        frontSkill="Html, Css, Javascript"
         projectAddress="https://simi-22.github.io/RandomNumGame/"
         githubAddress="https://github.com/simi-22/RandomNumGame"
       />

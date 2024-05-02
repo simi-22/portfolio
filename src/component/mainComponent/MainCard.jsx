@@ -69,9 +69,14 @@ const CardWrap = styled.div`
     height: 520px;
     & > div {
       flex-direction: column;
+      width: 92%;
+      height: 96%;
+      top: 2%;
+      left: 4%;
     }
     & > div > ul {
       width: 100%;
+      padding-left: 10px;
     }
   }
 `;
@@ -97,6 +102,7 @@ const CardButtonWrap = styled.ul`
     background-color: pink;
     font-size: 13px;
     padding: 2px 5px;
+    margin-top: 10px;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: -1px -1px 3px #fff, 1px 1px 3px #babebc;
@@ -114,7 +120,9 @@ const ListArea = styled.div`
   background: #fffefe;
   padding: 10px 10px;
   border-radius: 2px;
-  border: 1px solid #dbbcd2b7;
+  padding-left: 0;
+  padding-top: 0;
+  /* border: 1px solid #dbbcd2b7; */
 
   & > div:first-of-type {
     display: none;

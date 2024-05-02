@@ -42,9 +42,36 @@ const ProjectList = styled.li`
   & > div:nth-of-type(2) > div > ul.demoSite {
     display: flex;
   }
+  & > div:nth-of-type(2) > div > ul.demoSite > li {
+    position: relative;
+    /* background-color: black; */
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: -2px -2px 5px #fff, 3px 3px 5px #babebc;
+  }
+  & > div:nth-of-type(2) > div > ul.demoSite > li:hover {
+    box-shadow: inset 1px 1px 2px #babebc, inset -1px -1px 2px #fff;
+  }
   & > div:nth-of-type(2) > div > ul.demoSite > li:first-of-type {
     margin-right: 10px;
   }
+  /* & > div:nth-of-type(2) > div > ul.demoSite > li::after {
+    content: "click!";
+    position: absolute;
+    top: 2px;
+    left: -5px;
+    color: #fff;
+    font-size: 10px;
+    background-color: #0000004d;
+    padding: 1px 2px;
+    border-radius: 3px;
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+  }
+  & > div:nth-of-type(2) > div > ul.demoSite > li:hover::after {
+    opacity: 1;
+  } */
   & > div:nth-of-type(2) > div.title {
     font-weight: bold;
     font-size: 18px;

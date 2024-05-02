@@ -10,6 +10,11 @@ const HomePageContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 630px) {
+    height: calc(100vh - 100px);
+    justify-content: start;
+    margin-top: 20px;
+  }
 `;
 const HomePage = () => {
   return (
