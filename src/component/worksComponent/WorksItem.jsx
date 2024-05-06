@@ -12,6 +12,7 @@ const ProjectList = styled.li`
   background-color: #ffffff6c;
   border-radius: 10px;
   height: 370px;
+  /* box-shadow: -1px -1px 3px #fff, 3px 3px 6px #babebc; */
   & > div:nth-of-type(1) {
     height: 48%;
     display: flex;
@@ -111,7 +112,7 @@ const WorksItem = ({
   title,
   projectType,
   frontSkill,
-  backSkill,
+  Data,
   tool,
   content,
   projectAddress,
@@ -143,9 +144,9 @@ const WorksItem = ({
           <li>
             <p>Frontend: </p> <p>{frontSkill}</p>
           </li>
-          {backSkill && (
+          {Data && (
             <li>
-              <p>Backend: </p> <p>{backSkill}</p>
+              <p>Data: </p> <p>{Data}</p>
             </li>
           )}
           {tool && (

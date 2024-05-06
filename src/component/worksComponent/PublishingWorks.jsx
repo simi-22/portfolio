@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import WorksItem from "../../component/worksComponent/WorksItem.jsx";
 import Rds from "../../assets/publishingImg/rds.png";
-import megabox from "../../assets/publishingImg/megabox.png";
-import millie from "../../assets/publishingImg/millie.png";
+import megabox from "../../assets/publishingImg/megabox.jpg";
+import millie from "../../assets/publishingImg/millie.jpg";
 
 const ProjectContainer = styled.ul`
   display: grid;

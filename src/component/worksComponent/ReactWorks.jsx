@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import netflix from "../../assets/reactImg/netflix.png";
-import shakeDrink from "../../assets/reactImg/shakedrink.png";
-import portfolio from "../../assets/reactImg/portfolio.png";
-import yes24 from "../../assets/reactImg/yes24.png";
-import weatherapi from "../../assets/reactImg/weatherapi.png";
-import reactTodo from "../../assets/reactImg/reacttodo.png";
+import netflix from "../../assets/reactImg/netflix.jpg";
+import shakeDrink from "../../assets/reactImg/shakedrink.jpg";
+import portfolio from "../../assets/reactImg/portfolio.jpg";
+import yes24 from "../../assets/reactImg/yes24.jpg";
+import weatherapi from "../../assets/reactImg/weatherapi.jpg";
+import reactTodo from "../../assets/reactImg/reacttodo.jpg";
 import WorksItem from "../../component/worksComponent/WorksItem";
 
 const ProjectContainer = styled.ul`
@@ -34,7 +34,7 @@ const ReactWorks = () => {
         title="shake_drink"
         projectType="팀프로젝트"
         frontSkill="React, Javascript, MUI, Emotion, Zustand, ReactQuery"
-        backSkill="thecocktaildb"
+        Data="thecocktaildb"
         projectAddress="https://shake-drink.vercel.app/"
         githubAddress="https://github.com/simi-22/shake_drink"
         tool="Github,Figma, Notion, Slack, Discord, Netlify"
@@ -45,7 +45,7 @@ const ReactWorks = () => {
         title="넷플릭스"
         projectType="개인프로젝트"
         frontSkill="React, Javascript, React Query, Slick-Slider, Bootstrap, "
-        backSkill="TMDB API"
+        Data="TMDB API"
         projectAddress="https://nmoviewebsite.netlify.app/"
         githubAddress="https://github.com/simi-22/Netflix"
         content="React-Router페이지구현, React Query로 Api관리"
@@ -54,7 +54,7 @@ const ReactWorks = () => {
         image={portfolio}
         title="포트폴리오사이트"
         projectType="개인프로젝트"
-        frontSkill="React, Javascript, Zustand, ReactRouter, Styled-Component"
+        frontSkill="React, Javascript, Zustand, ReactRouter, Styled-Components"
         projectAddress="https://shake-drink.vercel.app/"
         githubAddress="https://github.com/simi-22/shake_drink"
       />
@@ -63,7 +63,7 @@ const ReactWorks = () => {
         title="yes 24(도서쇼핑몰)"
         projectType="개인프로젝트"
         frontSkill="React, Javascript, React-redux/middleware, Redux-toolkit"
-        backSkill="My json server"
+        Data="My json server"
         projectAddress="https://booksmall.netlify.app/?q="
         githubAddress="https://github.com/simi-22/shoppingmall"
       />
@@ -72,7 +72,7 @@ const ReactWorks = () => {
         title="날씨웹사이트"
         projectType="개인프로젝트"
         frontSkill="React, Javascript"
-        backSkill="openWeatherApi"
+        Data="openWeatherApi"
         projectAddress="https://weatherwebsun.netlify.app/"
         githubAddress="https://github.com/simi-22/weatherWeb"
       />
