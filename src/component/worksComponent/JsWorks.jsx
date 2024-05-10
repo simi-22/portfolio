@@ -1,31 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+
 import WorksItem from "../../component/worksComponent/WorksItem";
 import MuvicImg from "../../assets/jsImg/muvic.jpg";
 import Times from "../../assets/jsImg/times.jpg";
 import todoList from "../../assets/jsImg/jstodo.jpg";
 import random from "../../assets/jsImg/random.jpg";
 
-const ProjectContainer = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1000px;
-  padding-top: 20px;
-  margin: 0 auto;
-  gap: 20px;
-  margin-bottom: 50px;
-  @media (max-width: 1020px) {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 600px;
-  }
-  @media (max-width: 630px) {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 300px;
-  }
-`;
 const JsWorks = () => {
   return (
-    <ProjectContainer>
+    <>
       <WorksItem
         image={MuvicImg}
         title="MUVIC"
@@ -63,7 +46,7 @@ const JsWorks = () => {
         projectAddress="https://simi-22.github.io/RandomNumGame/"
         githubAddress="https://github.com/simi-22/RandomNumGame"
       />
-    </ProjectContainer>
+    </>
   );
 };
 

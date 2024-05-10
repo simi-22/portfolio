@@ -1,30 +1,13 @@
 import React from "react";
-import styled from "styled-components";
+
 import WorksItem from "../../component/worksComponent/WorksItem.jsx";
-import Rds from "../../assets/publishingImg/rds.png";
+import Rds from "../../assets/publishingImg/rds.jpg";
 import megabox from "../../assets/publishingImg/megabox.jpg";
 import millie from "../../assets/publishingImg/millie.jpg";
 
-const ProjectContainer = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1000px;
-  padding-top: 20px;
-  margin: 0 auto;
-  gap: 20px;
-  margin-bottom: 50px;
-  @media (max-width: 1020px) {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 600px;
-  }
-  @media (max-width: 630px) {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 300px;
-  }
-`;
 const PublishingWorks = () => {
   return (
-    <ProjectContainer>
+    <>
       <WorksItem
         image={Rds}
         title="RDS 클론코딩"
@@ -51,7 +34,7 @@ const PublishingWorks = () => {
         projectAddress="https://simi-22.github.io/millie-web/main"
         githubAddress="https://github.com/simi-22/millie-web"
       />
-    </ProjectContainer>
+    </>
   );
 };
 

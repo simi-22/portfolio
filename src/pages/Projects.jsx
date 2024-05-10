@@ -43,7 +43,23 @@ const ProjectButton = styled.ul`
     max-width: 300px;
   }
 `;
-
+const ProjectContainer = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  padding-top: 20px;
+  margin: 0 auto;
+  gap: 20px;
+  margin-bottom: 50px;
+  @media (max-width: 1020px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+  }
+  @media (max-width: 630px) {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+  }
+`;
 const Projects = () => {
   const { selectedWork, setSelectedWork } = useSelectedWorkStore();
 
@@ -86,11 +102,11 @@ const Projects = () => {
           </button>
         </li>
       </ProjectButton>
-      <div>
+      <ProjectContainer>
         {selectedWork === "React" && <ReactWorks />}
         {selectedWork === "JavaScript" && <JsWorks />}
         {selectedWork === "Publishing" && <PublishingWorks />}
-      </div>
+      </ProjectContainer>
     </div>
   );
 };

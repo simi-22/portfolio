@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+
 import netflix from "../../assets/reactImg/netflix.jpg";
 import shakeDrink from "../../assets/reactImg/shakedrink.jpg";
 import portfolio from "../../assets/reactImg/portfolio.jpg";
@@ -8,27 +8,9 @@ import weatherapi from "../../assets/reactImg/weatherapi.jpg";
 import reactTodo from "../../assets/reactImg/reacttodo.jpg";
 import WorksItem from "../../component/worksComponent/WorksItem";
 
-const ProjectContainer = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1000px;
-  padding-top: 20px;
-  margin: 0 auto;
-  gap: 20px;
-  margin-bottom: 50px;
-  @media (max-width: 1020px) {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 600px;
-  }
-  @media (max-width: 630px) {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 300px;
-  }
-`;
-
 const ReactWorks = () => {
   return (
-    <ProjectContainer>
+    <>
       <WorksItem
         image={shakeDrink}
         title="shake_drink"
@@ -84,7 +66,7 @@ const ReactWorks = () => {
         projectAddress="https://simi-22.github.io/ReactTodo/"
         githubAddress="https://github.com/simi-22/ReactTodo"
       />
-    </ProjectContainer>
+    </>
   );
 };
 
